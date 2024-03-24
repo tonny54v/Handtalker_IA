@@ -6,7 +6,7 @@ import os
 import SeguimientoManos as sm
 
 # creacion de la carpeta
-nombre = 'Letra_B'
+nombre = 'Letra_X'
 direccion = 'D:/proyecto_handtalker_IA/Handtalker_ia/Entrenamiento_IA/Data'
 carpeta = direccion + '/' + nombre
 
@@ -56,7 +56,7 @@ while True:
         #recorte = cv2.resize(recorte, (500,500), interpolation=cv2.INTER_CUBIC)
 
         # Almacenar nuestras imagenes
-        cv2.imwrite(carpeta + "/B_{}.jpg".format(cont), recorte)
+        cv2.imwrite(carpeta + "/X_{}.jpg".format(cont), recorte)
 
         # Aumentamos contador
         cont = cont + 1

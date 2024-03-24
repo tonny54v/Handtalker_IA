@@ -1,0 +1,7 @@
+//Pasos para subir a github
+1 - Abrir terminal
+# git init
+# git remote add origin https://github.com/tonny54v/Handtalker_IA.git (Si ya lo hiciste una vez omite esto)
+# git branch -M main (Omitelo si ya lo hiciste una vez)
+# git commit -m "Cualquier mensaje de indicacion"
+# git push -u origin main

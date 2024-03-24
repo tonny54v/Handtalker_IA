@@ -13,7 +13,7 @@ cap.set(3, 1280)
 cap.set(4, 720)
 
 # Leer nuestro modelo
-model = YOLO('C.pt')
+model = YOLO('L.pt')
 
 # Declarar detector
 detector = sm.detectormanos(Confdeteccion=0.9)
