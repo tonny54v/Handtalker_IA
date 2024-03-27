@@ -2,4 +2,4 @@ train: D:\proyecto_handtalker_IA\Handtalker_ia\Entrenamiento_IA\dataset\train/
 val: D:\proyecto_handtalker_IA\Handtalker_ia\Entrenamiento_IA\dataset\val/
 test:
 nc: 1
-names: ["N"]
+names: ["W"]
